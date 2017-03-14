@@ -1,25 +1,77 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
 
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+  <header class="banner">
+    <h1> Freshii </h1>
+  </header>
+  <main class= "content">
+    <section id="startSection" class="content-box start">
+      <h2> Build Your Own Bowl</h2>
+      <a href="#" class="btn btn-lg" id="taptostart">TAP TO START</a>
+      <div class="box top"></div>
+    </section>
 
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+    <section class="content-box" id="step1">
+      <h2>Pick Your Green/Grain</h2>
+        <ul class="select-item">
+          <li><a href="#basmati_rice">Basmati Rice</a></li>
+          <li><a href="#lettuce">Lettuce</a></li>
+        </ul>
+      <a href="#step2" class="next-button">Next</a>
+    </section>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <section class="content-box" id="step2">
+      <h2>Pick Your Protein</h2>
+      <ul class="select-item">
+        <li><a href="#chicken">Chicken</a></li>
+        <li><a href="#tofu">Tofu</a></li>
+      </ul>
+      <a href="#order" class="next-button">Next</a>
+    </section>
 
-        <script src="js/main.js"></script>
-    </body>
+    <section class="content-box" id="step3">
+      <h2>Pick Your Dressing/h2>
+      <ul class="select-item">
+        <li><a href="#caesar">Caesar</a></li>
+        <li><a href="#salsa">Black Bean Salsa/a></li>
+      </ul>
+      <a href="#order" class="next-button">Next</a>
+    </section>
+
+    <section class="content-box" id="order">
+      <h2>results</h2>
+      <div class="group">
+        <div id="basmati_rice" class="order-item">Basmati Rice</div>
+        <div id="lettuce" class="order-item">Lettuce</div>
+      </div>
+      <div class="group">
+        <div id="chicken" class="order-item">Chicken</div>
+        <div id="tofu" class="order-item">Tofu</div>
+      </div>
+      <div class="group">
+        <div id="caesar" class="order-item">Caesar</div>
+        <div id="salsa" class="order-item">Black Bean Salsa</div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+  <script src="js/main.js"></script>
+</body>
 </html>
