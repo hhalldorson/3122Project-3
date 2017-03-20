@@ -21,6 +21,16 @@ ul.select-item a {
   font-size: 30px;
   list-style-type: none;
 }
+
+.order-item {
+  color: black;
+  font-family: helvetica;
+  margin-left: 30px;
+  bottom: 20px;
+  font-size: 30px;
+  list-style-type: none;
+}
+
 ul.select-item li {
   list-style-type: none;
 }
