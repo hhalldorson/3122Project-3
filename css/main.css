@@ -12,9 +12,33 @@
      z-index: 10;
    }
 
+ul.select-item a {
+  text-decoration: none;
+  color: black;
+  font-family: helvetica;
+  left: 30px;
+  bottom: 20px;
+  font-size: 30px;
+  list-style-type: none;
+}
+ul.select-item li {
+  list-style-type: none;
+}
+
+a.next-button {
+  text-decoration: none;
+  color: green;
+  font-family: helvetica;
+  font-size: 30px;
+  position: absolute;
+  left:630px;
+}
+
+
    h1 {
      margin: 0;
    }
+
 
    .content-box {
      background-color: white;
@@ -45,9 +69,10 @@
    h2{
      font-family: helvetica;
      font-size: 60px;
-     text-align: center;
+     text-align: left;
      padding-top: 100px;
-     padding-bottom: 50px
+     padding-bottom: 30px;
+     padding-left: 40px;
    }
    .btn {
      font-family: helvetica;
